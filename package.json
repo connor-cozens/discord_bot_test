@@ -1,0 +1,22 @@
+{
+  "name": "discord_bot_test",
+  "version": "1.0.0",
+  "description": "Test Discord Bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test_bot"
+  },
+  "author": "Connor Cozens",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.5.0",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "@discordjs/voice": "^0.6.0",
+    "discord-api-types": "^0.22.0",
+    "discord.js": "^13.1.0",
+    "libsodium-wrappers": "^0.7.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
